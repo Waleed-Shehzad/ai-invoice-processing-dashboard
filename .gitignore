@@ -1,0 +1,47 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.key
+credentials*.json
+*-credentials.json
+service-account*.json
+token*.json
+
+# n8n local state and private exports
+.n8n/
+n8n_data/
+private/
+private-exports/
+
+# Local tools and agent skills
+.agents/
+.codex/
+.claude/
+.playwright*/
+playwright-report/
+test-results/
+
+# Logs and OS metadata
+*.log
+.DS_Store
+Thumbs.db
+
+# Original workspace rules and handoff-only material
+.env*
+!.env.example
+!**/.env.example
+ai-invoice-processing-dashboard-github-package/
+START-HERE.md
+CODEX-PROMPT.md

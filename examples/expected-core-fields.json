@@ -1,0 +1,96 @@
+{
+  "note": "Synthetic source expectations; not extraction accuracy results.",
+  "invoices": [
+    {
+      "file": "01_cedar_it_pkr.pdf",
+      "scenario": "new_invoice",
+      "duplicate_of": null,
+      "expected_core_fields": {
+        "invoice_number": "CDR-2026-1048",
+        "supplier_name": "CEDAR / IT SERVICES",
+        "currency": "PKR",
+        "invoice_date": "2026-10-15",
+        "due_date": "2026-11-14",
+        "total_amount": 67210.0
+      }
+    },
+    {
+      "file": "02_harbor_cloud_usd.pdf",
+      "scenario": "new_invoice",
+      "duplicate_of": null,
+      "expected_core_fields": {
+        "invoice_number": "HC-2026-0821",
+        "supplier_name": "HARBOR CLOUD",
+        "currency": "USD",
+        "invoice_date": "2026-10-15",
+        "due_date": "2026-11-14",
+        "total_amount": 226.75
+      }
+    },
+    {
+      "file": "03_lumen_studio_gbp.pdf",
+      "scenario": "new_invoice",
+      "duplicate_of": null,
+      "expected_core_fields": {
+        "invoice_number": "LUM-2026-0316",
+        "supplier_name": "LUMEN STUDIO",
+        "currency": "GBP",
+        "invoice_date": "2026-10-15",
+        "due_date": "2026-11-14",
+        "total_amount": 4080.0
+      }
+    },
+    {
+      "file": "04_alder_equipment_eur_multipage.pdf",
+      "scenario": "new_invoice",
+      "duplicate_of": null,
+      "expected_core_fields": {
+        "invoice_number": "AE-2026-2407",
+        "supplier_name": "ALDER EQUIPMENT",
+        "currency": "EUR",
+        "invoice_date": "2026-10-15",
+        "due_date": "2026-11-14",
+        "total_amount": 8150.31
+      }
+    },
+    {
+      "file": "05_dune_logistics_aed.pdf",
+      "scenario": "new_invoice",
+      "duplicate_of": null,
+      "expected_core_fields": {
+        "invoice_number": "DL-2026-0914",
+        "supplier_name": "DUNE LOGISTICS",
+        "currency": "AED",
+        "invoice_date": "2026-10-15",
+        "due_date": "2026-11-14",
+        "total_amount": 1737.75
+      }
+    },
+    {
+      "file": "06_oakline_furniture_pkr_discount.pdf",
+      "scenario": "new_invoice",
+      "duplicate_of": null,
+      "expected_core_fields": {
+        "invoice_number": "OW-2026-0529",
+        "supplier_name": "OAKLINE WORKSPACES",
+        "currency": "PKR",
+        "invoice_date": "2026-10-15",
+        "due_date": "2026-11-14",
+        "total_amount": 267850.0
+      }
+    },
+    {
+      "file": "07_cedar_it_duplicate.pdf",
+      "scenario": "duplicate",
+      "duplicate_of": "01_cedar_it_pkr.pdf",
+      "expected_core_fields": {
+        "invoice_number": "CDR-2026-1048",
+        "supplier_name": "CEDAR / IT SERVICES",
+        "currency": "PKR",
+        "invoice_date": "2026-10-15",
+        "due_date": "2026-11-14",
+        "total_amount": 67210.0
+      }
+    }
+  ]
+}

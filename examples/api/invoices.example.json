@@ -1,0 +1,19 @@
+{
+  "invoices": [
+    {
+      "row_number": 2,
+      "invoice_number": "AE-2026-2407",
+      "supplier_name": "ALDER EQUIPMENT",
+      "supplier_email": "invoices@alderequipment.example",
+      "supplier_address": "42 Example Park, Building B, Berlin, Germany",
+      "invoice_date": "2026-10-15",
+      "due_date": "2026-11-14",
+      "total_amount": 8150.31,
+      "amount_paid": 0,
+      "balance_due": "",
+      "currency": "EUR",
+      "source_file_url": "",
+      "processed_at": "2026-10-29T18:23:00.180+05:00"
+    }
+  ]
+}

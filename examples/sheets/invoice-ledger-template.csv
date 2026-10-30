@@ -1,0 +1,1 @@
+invoice_number,supplier_name,supplier_email,supplier_address,invoice_date,due_date,total_amount,amount_paid,balance_due,currency,source_file_url,processed_at
