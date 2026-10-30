@@ -1,4 +1,4 @@
-﻿# Verification
+# Verification
 
 Checks recorded on 30 October 2026 for the integrated repository. Browser checks used the production build on a temporary local port, with fictional demo records. No live n8n requests, invoice processing or email sends were executed during this verification.
 
@@ -61,4 +61,12 @@ The supplied development notes report successful new-invoice append, duplicate s
 - Confirm the installed Sheets node combines the three duplicate filters using AND; exercise actual sequential new/duplicate invoices and inspect the complete execution trace.
 - Verify the imported workflow in your n8n version, including model output, append behaviour and Gmail delivery. Sanitised imports were not activated or executed here.
 - If live mode is desired, enter the actual server-side environment values and test the dashboard connection separately. Add access protection before exposing financial records; there is no dashboard sign-in layer.
-- Create an empty **private** GitHub repository named `ai-invoice-processing-dashboard`, authenticate local Git, add the repository's actual HTTPS URL as `origin`, and push `main`. The connected GitHub account could be read, but its connector cannot create repositories; the browser was signed out, local Git had no saved credential and GitHub CLI was unavailable. No repository URL or remote was invented.
+
+## Repository publication
+
+The private repository was created under the authenticated Waleed-Shehzad account:
+
+https://github.com/Waleed-Shehzad/ai-invoice-processing-dashboard
+
+An initial authentication check was blocked by a configured GitHub credential helper pointing to a missing GitHub CLI executable. Direct Windows Git Credential Manager access confirmed the existing account credential; publication uses that helper without changing global Git configuration. Credentials are never included in the project or command output.
+
